@@ -15,14 +15,14 @@ We hope that this software will help improve the conduct and reporting of NMAs.
 The simplest way to get started with BUGSnet is to use BUGSnet on our RStudio server. This is provided for free to academia. Click the link below to access the server.
 
 ```markdown
-[Link](url)
+[Link](https://user1.bugsnet.eviviz.com/)
 ```
 ## **Request a copy of BUGSnet**
 
 If your needs excess the functionalities of the server, you can request a copy of BUGSnet using the form at the link below. This is provided for free to academia.
 
 ```markdown
-[Link](url)
+[Link](http://www.lighthouseoutcomes.com/bugsnet-download/)
 ```
 
 ### How to get started
