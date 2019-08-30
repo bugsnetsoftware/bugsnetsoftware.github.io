@@ -29,7 +29,7 @@ Check out our demonstration [vignettes](vignettes)
 
 ### Support or Contact
 
-Having trouble?
+Having trouble? Or want to suggest an improvement to BUGSnet? Please fill an issue [here](https://github.com/bugsnetsoftware/BUGSnet).
 
 Contact the authors: 
 - [Audrey Beliveau (academic)](https://uwaterloo.ca/statistics-and-actuarial-science/about/people/a2belive)
