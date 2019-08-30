@@ -2,7 +2,7 @@
 
 Vignettes provide step-by-step instructions on how to use BUGSnet to conduct network meta-analyses.
 
-## BUGSnet 1.0.1
+## BUGSnet 1.0.2
 
 [Vignette on network meta-analysis of survival data](survival.html)
 
