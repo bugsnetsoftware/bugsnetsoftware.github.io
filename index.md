@@ -21,7 +21,7 @@ The simplest way to get started with BUGSnet is to use BUGSnet on our RStudio se
 
 If your needs excess the functionalities of the server, you can request a copy of BUGSnet. Academic use is free.
 
-[Click here to request a copy of BUGSnet](http://www.lighthouseoutcomes.com/bugsnet-download/) (coming soon!)
+[Click here to request a copy of BUGSnet](http://www.lighthouseoutcomes.com/bugsnet-download/) (coming soon!) or contact us directly.
 
 ### How to get started
 
