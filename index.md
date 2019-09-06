@@ -8,7 +8,7 @@ BUGSnet is a new feature-rich R package to conduct high-quality Bayesian NMA ana
 
 We hope that this software will help improve the conduct and reporting of NMAs.
 
-![Network plot](images/network.png)
+![](images/network.png)
 
 ## **Access the BUGSnet RStudio server**
 
