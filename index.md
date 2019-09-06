@@ -14,14 +14,12 @@ We hope that this software will help improve the conduct and reporting of NMAs.
 
 The simplest way to get started with BUGSnet is to use BUGSnet on our RStudio server. Academic use is free.
 
-[Click here to access the BUGSnet RStudio Server](https://user1.bugsnet.eviviz.com/) (coming soon!)
+[Click here to request access to BUGSnet on the RStudio Server](https://spintechit.com/bugsnet-demo-request/)
 
 
 ## **Request a copy of BUGSnet**
 
-If your needs excess the functionalities of the server, you can request a copy of BUGSnet. Academic use is free.
-
-[Click here to request a copy of BUGSnet](http://www.lighthouseoutcomes.com/bugsnet-download/) (coming soon!) or contact us directly.
+If your needs excess the functionalities of the server, you can request a copy of BUGSnet by contacting us directly.
 
 ### How to get started
 
