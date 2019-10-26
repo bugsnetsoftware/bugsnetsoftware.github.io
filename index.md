@@ -10,20 +10,19 @@ We hope that this software will help improve the conduct and reporting of NMAs.
 
 ![network](images/network.png)
 
+## **Installing BUGSnet on your machine (NEW)**
+
+To install BUGSnet on your machine, please follow the instructions on our [Github project page](https://github.com/audrey-b/BUGSnet).
+
 ## **Access the BUGSnet RStudio server**
 
-The simplest way to get started with BUGSnet is to use BUGSnet on our RStudio server. Academic use is free.
+You may prefer to use BUGSnet on our RStudio server. Academic use is free.
 
 [Click here to request access to BUGSnet on the RStudio Server](https://spintechit.com/bugsnet-demo-request/)
 
+### Demonstration vignettes
 
-## **Request a copy of BUGSnet**
-
-If your needs exceed the functionalities of the server, you can request a copy of BUGSnet by contacting us directly. Academic use is free.
-
-### How to get started
-
-Check out our demonstration [vignettes](vignettes) 
+To start using BUGSnet, please follow the code in our demonstration [vignettes](vignettes).
 
 ### Support or Contact
 
