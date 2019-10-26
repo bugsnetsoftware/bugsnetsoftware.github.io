@@ -31,6 +31,8 @@ install.packages("remotes")
 remotes::install_github("audrey-b/BUGSnet")
 ```
 
+You may be asked to install/update other packages; say yes to all.
+
 ## 5\. Check that BUGSnet works
 
 If everything installed properly, the following [test script](testscript.txt) should run without error. Simply copy and paste to your RStudio console, then run.
