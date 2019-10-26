@@ -10,21 +10,31 @@ We hope that this software will help improve the conduct and reporting of NMAs.
 
 ![network](images/network.png)
 
-## **Installing BUGSnet on your machine (NEW)**
+## **Install BUGSnet on your machine (NEW)**
 
-To install BUGSnet on your machine, please follow the instructions on our [Github project page](https://github.com/audrey-b/BUGSnet).
+To install BUGSnet on your machine, please follow the instructions by clicking on the link below.
+
+[BUGSnet 1.0.2](instructions)
 
 ## **Access the BUGSnet RStudio server**
 
-You may prefer to use BUGSnet on our RStudio server. Academic use is free.
+You may prefer to use BUGSnet on our RStudio server. Academic use is free. [Click here to request access](https://spintechit.com/bugsnet-demo-request/)
 
-[Click here to request access to BUGSnet on the RStudio Server](https://spintechit.com/bugsnet-demo-request/)
+## Start using BUGSnet
 
-### Demonstration vignettes
+Please follow the code in our demonstration [vignettes](vignettes).
 
-To start using BUGSnet, please follow the code in our demonstration [vignettes](vignettes).
+## License
 
-### Support or Contact
+BUGSnet is available under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC
+BY-NC-SA 4.0). Kindly review the LICENSE file. You are responsible for conforming to the terms of this license. BUGSnet is provided as-is and comes with absolutely no warranty. Commercial use is prohibited; please contact the authors for more information.
+
+## How to cite BUGSnet?
+
+Béliveau A., Boyne D., Slater J., Brenner D. and Arora P. (2019). BUGSnet: an R package to facilitate the conduct and reporting of
+Bayesian network Meta-analyses. *BMC Medical Research Methodology*, 19(196).
+
+## Support or Contact
 
 Having trouble? Or want to suggest an improvement to BUGSnet? Please fill an issue [here](https://github.com/bugsnetsoftware/BUGSnet).
 
