@@ -1,0 +1,113 @@
+## This is a script to test BUGSnet
+
+library(BUGSnet)
+
+data(diabetes.sim)
+
+## prepare the data for use in bugsnet
+diabetes.data <- data.prep(arm.data = diabetes.sim,
+                           varname.t = "Treatment",
+                           varname.s = "Study")
+
+## network Plot
+net.plot(diabetes.data, outcome = "diabetes", node.scale = 3, edge.scale=1.5)
+
+##Network characteristic summary tables
+network.char <- net.tab(data = diabetes.data,
+                        outcome = "diabetes",
+                        N = "n",
+                        type.outcome = "rate2",
+                        time = "followup")
+
+##assessing patient covariates
+data.plot(data = diabetes.data,
+          covariate = "age",
+          half.length = "age_SD", #comment this line out to remove error bars
+          by = "treatment", #change to "study" to plot characteristics by study
+          fill.str = "age_type",  #comment this line out to remove colors
+          avg.hline=TRUE) #add overall average line?
+
+
+##choosing an NMA model: fixed vs random effects
+FE_model <- nma.model(data=diabetes.data,
+                      outcome="diabetes",
+                      N="n",
+                      reference="Diuretic",
+                      family="binomial",
+                      link="cloglog",
+                      time = "followup",
+                      effects="fixed")
+
+RE_model <- nma.model(data=diabetes.data,
+                      outcome="diabetes",
+                      N="n",
+                      reference="Diuretic",
+                      family="binomial",
+                      link="cloglog",
+                      time = "followup",
+                      effects= "random")
+
+cat(RE_model$bugs)
+
+##running the models, will take ~30-60 seconds
+FE_results <- nma.run(FE_model,
+                      n.adapt=101,
+                      n.burnin=0,
+                      n.iter=101)
+
+RE_results <- nma.run(RE_model,
+                      n.adapt=101,
+                      n.burnin=0,
+                      n.iter=101)
+
+par(mar=c(1,1,1,1))
+nma.trace(RE_results)
+
+##model fit
+par(mfrow = c(1,2))
+fe_model_fit <- nma.fit(FE_results, main = "Fixed Effects Model")
+re_model_fit <- nma.fit(RE_results, main= "Random Effects Model")
+
+
+##Synthesis of results
+
+#Forest Plot
+nma.forest(RE_results,
+           central.tdcy="median",
+           comparator = "Placebo", #change this option any treatment of interest, e.g "ARB"
+           log.scale = FALSE)
+
+#SUCRA Plot
+sucra.out <- nma.rank(RE_results, largerbetter=FALSE, sucra.palette= "Set1")
+
+#League table
+league.out <- nma.league(RE_results,
+                         central.tdcy="median",
+                         order = sucra.out$order,
+                         log.scale = FALSE,
+                         low.colour = "springgreen4",
+                         mid.colour = "white",
+                         high.colour = "red")
+
+##Run inconsistency model
+re_inconsistency_model <- nma.model(data=diabetes.data,
+                                   outcome="diabetes",
+                                   N="n",
+                                   reference="Diuretic",
+                                   family="binomial",
+                                   link="cloglog",
+                                   time = "followup",
+                                   type = "inconsistency", #specifies inconsistency model
+                                   effects="random")
+
+re_inconsistency_results <- nma.run(re_inconsistency_model,
+                                   n.adapt=101,
+                                   n.burnin=0,
+                                   n.iter=101)
+
+re_model_fit <- nma.fit(RE_results, main = "Consistency Model" )
+inconsist_model_fit <- nma.fit(re_inconsistency_results, main= "Inconsistency Model")
+
+graphics.off()
+nma.compare(re_model_fit, inconsist_model_fit)
+
