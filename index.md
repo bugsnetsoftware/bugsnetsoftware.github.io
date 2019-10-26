@@ -38,7 +38,7 @@ Bayesian network Meta-analyses. *BMC Medical Research Methodology*, 19(196).
 
 ## Support or Contact
 
-Having trouble? Or want to suggest an improvement to BUGSnet? Please fill an issue [here](https://github.com/bugsnetsoftware/BUGSnet).
+Having trouble? Or want to suggest an improvement to BUGSnet? Please fill an issue [here](https://github.com/bugsnetsoftware/BUGSnet/issues).
 
 Contact the authors: 
 - [Audrey Beliveau (academic)](https://uwaterloo.ca/statistics-and-actuarial-science/about/people/a2belive)
