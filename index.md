@@ -1,3 +1,5 @@
+<[Home](index.md)>  <[Installation](instructions.md)> <[RStudio Server](https://spintechit.com/bugsnet-demo-request/)> <[Vignettes](vignettes)>
+
 # BUGSnet R package
 
 ## Preamble
