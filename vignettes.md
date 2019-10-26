@@ -1,3 +1,5 @@
+[[Home](index.md)]  [[Installation](instructions.md)] [[RStudio Server](https://spintechit.com/bugsnet-demo-request/)] [[Vignettes](vignettes)]
+
 # Vignettes
 
 Vignettes provide step-by-step instructions on how to use BUGSnet to conduct network meta-analyses.
