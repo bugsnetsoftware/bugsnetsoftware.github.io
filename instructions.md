@@ -1,4 +1,4 @@
-[Home](index.md)
+<[Home](index.md)>  <[Installation](instructions.md)> <[RStudio Server](https://spintechit.com/bugsnet-demo-request/)> <[Vignettes](vignettes)>
 
 # Installation instructions
 
