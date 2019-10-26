@@ -1,3 +1,5 @@
+[Home](index.md)
+
 # Installation instructions
 
 ## 1\. Install JAGS
