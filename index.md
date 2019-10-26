@@ -18,11 +18,11 @@ To install BUGSnet on your machine, please follow the instructions by clicking o
 
 [BUGSnet 1.0.2](instructions)
 
-## **Access the BUGSnet RStudio server**
+## Access the BUGSnet RStudio server
 
 You may prefer to use BUGSnet on our RStudio server. Academic use is free. [Click here to request access](https://spintechit.com/bugsnet-demo-request/)
 
-## Start using BUGSnet
+## **Start using BUGSnet**
 
 Please follow the code in our demonstration [vignettes](vignettes).
 
