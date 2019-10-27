@@ -16,7 +16,9 @@ We hope that this software will help improve the conduct and reporting of NMAs.
 
 To install BUGSnet on your machine, please follow the instructions by clicking on the link below.
 
-[BUGSnet 1.0.3](instructions)
+[BUGSnet 1.0.3](instructions) ([What's new?](new/1.0.3))
+
+[Archived versions](archived)
 
 ## Access the BUGSnet RStudio server
 
