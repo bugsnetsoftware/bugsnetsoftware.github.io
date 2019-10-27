@@ -10,7 +10,7 @@ diabetes.data <- data.prep(arm.data = diabetes.sim,
                            varname.s = "Study")
 
 ## network Plot
-net.plot(diabetes.data, outcome = "diabetes", node.scale = 3, edge.scale=1.5)
+net.plot(diabetes.data, node.scale = 3, edge.scale=1.5)
 
 ##Network characteristic summary tables
 network.char <- net.tab(data = diabetes.data,
@@ -19,7 +19,7 @@ network.char <- net.tab(data = diabetes.data,
                         type.outcome = "rate2",
                         time = "followup")
 
-##assessing patient covariates
+## assessing patient covariates
 data.plot(data = diabetes.data,
           covariate = "age",
           half.length = "age_SD", #comment this line out to remove error bars
@@ -28,7 +28,7 @@ data.plot(data = diabetes.data,
           avg.hline=TRUE) #add overall average line?
 
 
-##choosing an NMA model: fixed vs random effects
+## choosing an NMA model: fixed vs random effects
 FE_model <- nma.model(data=diabetes.data,
                       outcome="diabetes",
                       N="n",
@@ -49,7 +49,7 @@ RE_model <- nma.model(data=diabetes.data,
 
 cat(RE_model$bugs)
 
-##running the models, will take ~30-60 seconds
+## running the models, will take ~30-60 seconds
 FE_results <- nma.run(FE_model,
                       n.adapt=101,
                       n.burnin=0,
@@ -61,15 +61,15 @@ RE_results <- nma.run(RE_model,
                       n.iter=101)
 
 par(mar=c(1,1,1,1))
-nma.trace(RE_results)
+nma.diag(RE_results, plot_prompt = FALSE)
 
-##model fit
+## model fit
 par(mfrow = c(1,2))
 fe_model_fit <- nma.fit(FE_results, main = "Fixed Effects Model")
 re_model_fit <- nma.fit(RE_results, main= "Random Effects Model")
 
 
-##Synthesis of results
+## Synthesis of results
 
 #Forest Plot
 nma.forest(RE_results,
@@ -77,10 +77,10 @@ nma.forest(RE_results,
            comparator = "Placebo", #change this option any treatment of interest, e.g "ARB"
            log.scale = FALSE)
 
-#SUCRA Plot
+# SUCRA Plot
 sucra.out <- nma.rank(RE_results, largerbetter=FALSE, sucra.palette= "Set1")
 
-#League table
+# League table
 league.out <- nma.league(RE_results,
                          central.tdcy="median",
                          order = sucra.out$order,
@@ -89,7 +89,7 @@ league.out <- nma.league(RE_results,
                          mid.colour = "white",
                          high.colour = "red")
 
-##Run inconsistency model
+## Run inconsistency model
 re_inconsistency_model <- nma.model(data=diabetes.data,
                                    outcome="diabetes",
                                    N="n",
@@ -110,4 +110,3 @@ inconsist_model_fit <- nma.fit(re_inconsistency_results, main= "Inconsistency Mo
 
 graphics.off()
 nma.compare(re_model_fit, inconsist_model_fit)
-
