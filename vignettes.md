@@ -4,6 +4,14 @@
 
 Vignettes provide step-by-step instructions on how to use BUGSnet to conduct network meta-analyses.
 
+## BUGSnet 1.0.3
+
+[Vignette on network meta-analysis of survival data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/master/doc/survival.html)
+
+[Vignette on network meta-analysis of dichotomous data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/master/doc/dichotomous.html)
+
+[Vignette on network meta-regression](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/master/doc/meta-regression.html)
+
 ## BUGSnet 1.0.2
 
 [Vignette on network meta-analysis of survival data](vignettes/1.0.2/survival.html)
