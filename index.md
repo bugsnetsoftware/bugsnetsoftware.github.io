@@ -33,7 +33,7 @@ Please follow the code in our demonstration [vignettes](vignettes).
 ## License
 
 BUGSnet is available under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC
-BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). Kindly review the [license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). You are responsible for conforming to the terms of this license. BUGSnet is provided as-is and comes with absolutely no warranty. Commercial use is prohibited under this license; contact the authors for more information.
+BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). Kindly review the [license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). You are responsible for conforming to the terms of this license. BUGSnet is provided as-is and comes with absolutely no guarantees. Commercial use is prohibited under this license; contact the authors for more information.
 
 ## How to cite BUGSnet?
 
