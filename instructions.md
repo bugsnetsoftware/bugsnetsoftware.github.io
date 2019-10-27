@@ -28,7 +28,7 @@ In the RStudio console, type
 
 ``` r
 install.packages("remotes")
-remotes::install_github("audrey-b/BUGSnet")
+remotes::install_github("audrey-b/BUGSnet", build_vignettes = TRUE)
 ```
 
 You may be asked to install/update other packages; say yes to all.
