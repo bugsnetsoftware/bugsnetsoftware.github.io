@@ -27,7 +27,7 @@ version) from
 In the RStudio console, type
 
 ``` r
-install.packages("remotes")
+install.packages(c("remotes", "knitr"))
 remotes::install_github("audrey-b/BUGSnet", build_vignettes = TRUE)
 ```
 
