@@ -31,8 +31,7 @@ If R was already installed on your machine, make sure to update all the packages
 In the RStudio console, type
 
 ``` r
-install.packages(c("remotes", "knitr"))
-remotes::install_github("audrey-b/BUGSnet", upgrade = TRUE, build_vignettes = TRUE)
+install.packages("https://github.com/audrey-b/BUGSnet/releases/download/v1.0.3/BUGSnet_1.0.3.tar.gz", repos = NULL, type = "source")
 ```
 
 You may be asked to install/update other packages; say yes to all.
