@@ -4,8 +4,7 @@
 
 ## 1\. Install JAGS
 
-Go to the [Sourceforge](https://sourceforge.net/projects/mcmc-jags/)
-page.
+Go to the [Sourceforge](https://sourceforge.net/projects/mcmc-jags/) page.
 
 Click on Files \> JAGS \> 4.x
 
@@ -13,24 +12,19 @@ Select your operating system and download JAGS-4.3.0, then install.
 
 ## 2\. Install R
 
-Download and install the most recent version of base R from
-[CRAN](https://cran.r-project.org/).
-
-If R was already installed on your machine, make sure to update it to the most recent version.
+Download and install the most recent version of base R from [CRAN](https://cran.r-project.org/).
 
 ## 3\. Install Rstudio
 
-Download and install the most recent version of RStudio Desktop (free
-version) from
-[RStudio](https://www.rstudio.com/products/rstudio/download).
+Download and install the most recent version of RStudio Desktop (free version) from [RStudio](https://www.rstudio.com/products/rstudio/download).
 
 ## 4\. Install BUGSnet
 
-If R was already installed on your machine, make sure to update all the packages (In RStudio, click Tools > Check for packages updates).
-
-In the RStudio console, type
+Open RStudio and run
 
 ``` r
+install.packages("installr")
+installr::updateR(TRUE)
 install.packages("https://github.com/audrey-b/BUGSnet/releases/download/v1.0.3/BUGSnet_1.0.3.tar.gz", repos = NULL, type = "source", dependencies = TRUE)
 ```
 
