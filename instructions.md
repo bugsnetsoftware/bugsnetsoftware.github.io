@@ -26,7 +26,7 @@ Open RStudio and run
 install.packages(c("installr", "remotes", "knitr"))
 installr::updateR(TRUE)
 installr::install.Rtools(choose_version = FALSE, check = TRUE)
-remotes::install_github("audrey-b/BUGSnet@v1.0.3", dependencies = TRUE, upgrade = TRUE, build_vignettes = TRUE)
+remotes::install_github("audrey-b/BUGSnet@v1.0.3", upgrade = TRUE, build_vignettes = TRUE)
 ```
 
 ## 5\. Check that BUGSnet works
