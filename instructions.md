@@ -2,7 +2,7 @@
 
 # Installation instructions
 
-## 1\. Install JAGS
+## 1\. Install JAGS version 4.3.0
 
 Go to the [Sourceforge](https://sourceforge.net/projects/mcmc-jags/) page.
 
@@ -10,21 +10,26 @@ Click on Files \> JAGS \> 4.x
 
 Select your operating system and download JAGS-4.3.0, then install.
 
-## 2\. Install R
-
-Download and install the most recent version of base R from [CRAN](https://cran.r-project.org/).
-
-## 3\. Install Rstudio
+## 2\. Install Rstudio
 
 Download and install the most recent version of RStudio Desktop (free version) from [RStudio](https://www.rstudio.com/products/rstudio/download).
+
+## 3\. Install R version 3.6.1 (if R is already installed on your machine please make sure you update to 3.6.1)
+
+Download and install base R from [CRAN](https://cran.r-project.org/).
+
+Note: returning R users on Windows can quickly update R using
+``` r
+install.packages("installr")
+installr::updateR(TRUE)
+```
 
 ## 4\. Install BUGSnet
 
 Open RStudio and run
 
 ``` r
-install.packages(c("installr", "remotes", "knitr"))
-installr::updateR(TRUE)
+install.packages(c("remotes", "knitr"))
 remotes::install_github("audrey-b/BUGSnet@v1.0.3", upgrade = TRUE, build_vignettes = TRUE)
 ```
 
