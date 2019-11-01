@@ -28,15 +28,15 @@ Download and install the most recent version of RStudio Desktop (free version) f
 
 ## 4\. Install BUGSnet
 
-Open RStudio and run
+Open RStudio, copy and paste the code below in the console and hit Enter.
 
 ``` r
 install.packages(c("remotes", "knitr"))
 remotes::install_github("audrey-b/BUGSnet@v1.0.3", upgrade = TRUE, build_vignettes = TRUE)
 ```
 
-If you are asked to install additional packages say yes to all.
+If you are asked to install additional packages say Yes to all.
 
 ## 5\. Check that BUGSnet works
 
-If everything installed properly, the following [test script](testscript.txt) should run without error. Simply copy and paste to your RStudio console, then run.
+If everything installed properly, the following [test script](testscript.txt) should run without error. Simply copy and paste to your RStudio console, then hit Enter.
