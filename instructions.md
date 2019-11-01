@@ -35,6 +35,8 @@ install.packages("pkgbuild")
 pkgbuild::has_build_tools()
 ```
 
+If asked to install the tools say Yes and proceed with the installation.
+
 ## 5\. Install BUGSnet
 
 Open RStudio, copy and paste the code below in the console and hit Enter.
