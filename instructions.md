@@ -46,6 +46,6 @@ remotes::install_github("audrey-b/BUGSnet@v1.0.3", upgrade = TRUE, build_vignett
 
 If you are asked to install additional packages say Yes to all.
 
-## 5\. Check that BUGSnet works
+## 6\. Check that BUGSnet works
 
 If everything installed properly, the following [test script](testscript.txt) should run without error. Simply copy and paste to your RStudio console, then hit Enter.
