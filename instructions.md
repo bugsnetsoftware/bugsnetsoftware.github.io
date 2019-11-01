@@ -26,6 +26,8 @@ installr::updateR(TRUE)
 
 Download and install the most recent version of RStudio Desktop (free version) from [RStudio](https://www.rstudio.com/products/rstudio/download).
 
+Note to MAC users: when opening RStudio say Yes when asked if you want to install the tools.
+
 ## 4\. Install BUGSnet
 
 Open RStudio, copy and paste the code below in the console and hit Enter.
