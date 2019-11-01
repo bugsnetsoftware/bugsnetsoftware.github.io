@@ -39,7 +39,7 @@ If asked to install the tools say Yes and proceed with the installation.
 
 ## 5\. Install BUGSnet
 
-Open RStudio, copy and paste the code below in the console and hit Enter.
+In RStudio, copy and paste the code below in the console and hit Enter.
 
 ``` r
 install.packages(c("remotes", "knitr"))
