@@ -32,7 +32,7 @@ Open RStudio, copy and paste the code below in the console and hit Enter.
 
 ``` r
 install.packages(c("remotes", "knitr", "pkgbuild"))
-pkgbuild::check_build_tools()
+pkgbuild::has_build_tools()
 remotes::install_github("audrey-b/BUGSnet@v1.0.3", upgrade = TRUE, build_vignettes = TRUE)
 ```
 
