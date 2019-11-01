@@ -26,7 +26,7 @@ installr::updateR(TRUE)
 
 Download and install the most recent version of RStudio Desktop (free version) from [RStudio](https://www.rstudio.com/products/rstudio/download).
 
-## 3\. Install Rtools
+## 4\. Install Rtools
 
 Open RStudio, copy and paste the code below in the console and hit Enter.
 
@@ -35,7 +35,7 @@ install.packages("pkgbuild")
 pkgbuild::has_build_tools()
 ```
 
-## 4\. Install BUGSnet
+## 5\. Install BUGSnet
 
 Open RStudio, copy and paste the code below in the console and hit Enter.
 
