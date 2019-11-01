@@ -26,13 +26,21 @@ installr::updateR(TRUE)
 
 Download and install the most recent version of RStudio Desktop (free version) from [RStudio](https://www.rstudio.com/products/rstudio/download).
 
+## 3\. Install Rtools
+
+Open RStudio, copy and paste the code below in the console and hit Enter.
+
+``` r
+install.packages("pkgbuild")
+pkgbuild::has_build_tools()
+```
+
 ## 4\. Install BUGSnet
 
 Open RStudio, copy and paste the code below in the console and hit Enter.
 
 ``` r
-install.packages(c("remotes", "knitr", "pkgbuild"))
-pkgbuild::has_build_tools()
+install.packages(c("remotes", "knitr"))
 remotes::install_github("audrey-b/BUGSnet@v1.0.3", upgrade = TRUE, build_vignettes = TRUE)
 ```
 
