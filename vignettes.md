@@ -12,6 +12,8 @@ Vignettes provide step-by-step instructions on how to use BUGSnet to conduct net
 
 [Vignette on network meta-regression](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/master/doc/meta-regression.html)
 
+[Vignette on continuous outcomes](continuous.md)
+
 ## BUGSnet 1.0.2
 
 [Vignette on network meta-analysis of survival data](vignettes/1.0.2/survival.html)
