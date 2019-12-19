@@ -12,7 +12,7 @@ Select your operating system and download JAGS-4.3.0, then install.
 
 Note for MAC users: you may get a message saying that the app cannot be installed due to an unidentified developper. In that case, you have to go in your Security and Privacy settings to allow the installation.
 
-## 2\. Install R version 3.6.1 (if R is already installed on your machine please make sure you update to 3.6.1)
+## 2\. Install the latest version of R (if R is already installed on your machine please make sure you update to 3.6.1 or higher)
 
 Download and install base R from [CRAN](https://cran.r-project.org/).
 
