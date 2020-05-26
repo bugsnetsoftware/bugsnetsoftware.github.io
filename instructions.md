@@ -59,4 +59,4 @@ If you experience a message of the sort :
 ERROR: failed to lock directory ‘C:\Users\useruser\Documents\R\win-library\3.6’ for modifying
 Try removing ‘C:\Users\useruser\Documents\R\win-library\3.6/00LOCK’
 
-close RStudio and delete the 00LOCK file manually. Reopen RStudio and retry the installation.
+close RStudio and delete the 00LOCK file manually. Reopen RStudio and retry.
