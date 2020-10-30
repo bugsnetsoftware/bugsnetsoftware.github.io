@@ -16,11 +16,11 @@ Vignettes provide step-by-step instructions on how to use BUGSnet to conduct net
 
 ## BUGSnet 1.0.3
 
-[Vignette on network meta-analysis of survival data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/master/doc/survival.html)
+[Vignette on network meta-analysis of survival data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.0.3/doc/survival.html)
 
-[Vignette on network meta-analysis of dichotomous data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/master/doc/dichotomous.html)
+[Vignette on network meta-analysis of dichotomous data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.0.3/doc/dichotomous.html)
 
-[Vignette on network meta-regression](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/master/doc/meta-regression.html)
+[Vignette on network meta-regression](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.0.3/doc/meta-regression.html)
 
 [Vignette on continuous outcomes](continuous.md)
 
