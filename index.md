@@ -47,3 +47,7 @@ Having trouble? Or want to suggest an improvement to BUGSnet? Please fill an iss
 Contact the authors: 
 - [Audrey Beliveau (academic)](https://uwaterloo.ca/statistics-and-actuarial-science/about/people/a2belive)
 - [Lighthouse Outcomes (academic, commercial)](http://www.lighthouseoutcomes.com/bugsnet/)
+
+## Sponsors
+
+![covalence](images/covalence.png)
