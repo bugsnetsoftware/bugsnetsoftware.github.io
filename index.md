@@ -50,4 +50,4 @@ Contact the authors:
 
 ## Sponsors
 
-[<img src="images/covalence.png" width="300" />](https://covalence-research.com)
+[<img src="images/covalence.png" width="150" />](https://covalence-research.com)
