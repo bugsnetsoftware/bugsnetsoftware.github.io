@@ -1,3 +1,7 @@
+**BUGSnet v1.0.4**
+
+remotes::install_github("audrey-b/BUGSnet@v1.0.4", upgrade = TRUE, build_vignettes = TRUE)
+
 **BUGSnet v1.0.3**
 
 remotes::install_github("audrey-b/BUGSnet@v1.0.3", upgrade = TRUE, build_vignettes = TRUE)
