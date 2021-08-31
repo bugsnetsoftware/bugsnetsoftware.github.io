@@ -2,6 +2,8 @@
 
 # BUGSnet R package
 
+### NEW! Version 1.1.0: BUGSnet can now handle contrast-level data and shared parameter models!
+
 ## Preamble
 
 The number of publications using network meta-analysis (NMA) has increased dramatically within the past decade. Despite this increase, several reviews have noted shortcomings with respect to the quality of the conduct and reporting of NMAs. Network meta-analyses should be conducted and reported according to published best practices guidelines, namely the [PRISMA](https://www.ncbi.nlm.nih.gov/pubmed/26030634), [ISPOR-AMPC-NCA](https://www.ncbi.nlm.nih.gov/pubmed/24636374) and [NICE-DSU](http://nicedsu.org.uk/wp-content/uploads/2016/03/TSD7-reviewer-checklist.final_.08.05.12.pdf) guidelines. These guidelines request numerous outputs that a single package does not currently provide. Moreover results (especially plots) are not publication-ready and often considerable time and effort must be spent to get them into a presentable state. 
