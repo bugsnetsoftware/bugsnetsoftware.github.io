@@ -14,11 +14,11 @@ We hope that this software will help improve the conduct and reporting of NMAs.
 
 ![network](images/network.png)
 
-## **Install BUGSnet on your machine (NEW)**
+## **Install BUGSnet on your machine**
 
 To install BUGSnet on your machine, please follow the instructions by clicking on the link below.
 
-[BUGSnet 1.0.4](instructions) 
+[BUGSnet 1.1.0](instructions) 
 ([What's new?](https://github.com/audrey-b/BUGSnet/raw/master/NEWS.md))
 ([Manual](https://github.com/audrey-b/BUGSnet/raw/master/manual.pdf))
 
