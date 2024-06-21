@@ -1,10 +1,10 @@
-[[Home](index.md)]  [[Installation](instructions.md)] [[RStudio Server](https://spintechit.com/bugsnet-demo-request/)] [[Vignettes](vignettes)]
+[[Home](index.md)]  [[Installation](instructions.md)] [[Vignettes](vignettes)]
 
 # Vignettes
 
 Vignettes provide step-by-step instructions on how to use BUGSnet to conduct network meta-analyses.
 
-## BUGSnet 1.1.0
+## BUGSnet 1.1.0 and above
 
 [Vignette on network meta-analysis of survival data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.1.0/vignettes/survival.html)
 
