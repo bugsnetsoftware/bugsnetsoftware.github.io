@@ -1,18 +1,18 @@
-[[Home](index.md)] [[Installation](instructions.md)] [[RStudio Server](https://spintechit.com/bugsnet-demo-request/)] [[Vignettes](vignettes)]
+[[Home](index.md)] [[Installation](instructions.md)] [[Vignettes](vignettes)]
 
 # Installation instructions
 
-## 1\. Install JAGS version 4.3.0
+## 1\. Install JAGS
 
 Go to the [Sourceforge](https://sourceforge.net/projects/mcmc-jags/) page.
 
 Click on Files \> JAGS \> 4.x
 
-Select your operating system and download JAGS-4.3.0, then install.
+After selecting your operating system, download and install the latest version of JAGS.
 
 Note for MAC users: you may get a message saying that the app cannot be installed due to an unidentified developper. In that case, you have to go in your Security and Privacy settings to allow the installation.
 
-## 2\. Install the latest version of R (if R is already installed on your machine please make sure you update to 4.0.3 or higher)
+## 2\. Install the latest version of R (if R is already installed on your machine please make sure you update to 4.4.0 or higher)
 
 Download and install base R from [CRAN](https://cran.r-project.org/).
 
