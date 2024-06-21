@@ -1,8 +1,8 @@
-[[Home](index.md)]  [[Installation](instructions.md)] [[RStudio Server](https://spintechit.com/bugsnet-demo-request/)] [[Vignettes](vignettes)]
+[[Home](index.md)]  [[Installation](instructions.md)] [[Vignettes](vignettes)]
 
 # BUGSnet R package
 
-### NEW! Version 1.1.0: BUGSnet can now handle contrast-level data and shared parameter models!
+### NEW! Version 1.1.2!
 
 ## Preamble
 
@@ -18,15 +18,11 @@ We hope that this software will help improve the conduct and reporting of NMAs.
 
 To install BUGSnet on your machine, please follow the instructions by clicking on the link below.
 
-[BUGSnet 1.1.0](instructions) 
+[BUGSnet 1.1.2](instructions) 
 ([What's new?](https://github.com/audrey-b/BUGSnet/raw/master/NEWS.md))
 ([Manual](https://github.com/audrey-b/BUGSnet/raw/master/manual.pdf))
 
 [Archived versions](archived)
-
-## Access the BUGSnet RStudio server
-
-You may prefer to use BUGSnet on our RStudio server. Academic use is free. [Click here to request access](https://spintechit.com/bugsnet-demo-request/).
 
 ## **Start using BUGSnet**
 
@@ -48,7 +44,6 @@ Having trouble? Or want to suggest an improvement to BUGSnet? Please fill an iss
 
 Contact the authors: 
 - [Audrey Beliveau (academic)](https://uwaterloo.ca/statistics-and-actuarial-science/about/people/a2belive)
-- [Lighthouse Outcomes (academic, commercial)](http://www.lighthouseoutcomes.com/bugsnet/)
 
 ## Sponsors
 
