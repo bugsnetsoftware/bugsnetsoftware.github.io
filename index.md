@@ -2,7 +2,7 @@
 
 # BUGSnet R package
 
-### NEW! Version 1.1.2!
+### NEW release 2024-06-21! Version 1.1.2!
 
 ## Preamble
 
