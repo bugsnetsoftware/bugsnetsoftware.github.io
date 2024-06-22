@@ -6,17 +6,17 @@ Vignettes provide step-by-step instructions on how to use BUGSnet to conduct net
 
 ## BUGSnet 1.1.0 and above
 
-[Vignette on network meta-analysis of survival data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.1.0/vignettes/survival.html)
+[Vignette on network meta-analysis of survival data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.1.2/vignettes/survival.html)
 
-[Vignette on network meta-analysis of dichotomous data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.1.0/vignettes/dichotomous.html)
+[Vignette on network meta-analysis of dichotomous data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.1.2/vignettes/dichotomous.html)
 
-[Vignette on network meta-regression](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.1.0/vignettes/meta-regression.html)
+[Vignette on network meta-regression](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.1.2/vignettes/meta-regression.html)
 
 [Vignette on continuous outcomes](continuous.md)
 
-[NEW - Vignette on network meta-analysis of contrast-level data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.1.0/vignettes/contrast.html)
+[NEW - Vignette on network meta-analysis of contrast-level data](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.1.2/vignettes/contrast.html)
 
-[NEW - Vignette on network meta-analysis with shared parameter models](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.1.0/vignettes/shared.html)
+[NEW - Vignette on network meta-analysis with shared parameter models](http://htmlpreview.github.io/?https://github.com/audrey-b/BUGSnet/blob/v1.1.2/vignettes/shared.html)
 
 ## BUGSnet 1.0.4
 
